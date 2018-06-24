@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Java Coaching">
+  <body>
+    <links>
+      <!-- Cucumber -->
+      <!-- Selenium WebDriver -->
+      <!-- Slfj4 -->
+      <!-- JUnit -->
+      <item name="Apache" href="http://www.apache.org/" />
+      <item name="Maven" href="http://maven.apache.org/"/>
+    </links>
+
+    <menu name="Java Coaching">
+      <item name="Introduction" href="index.html"/>
+      <item name="dependency-info" href="dependency-info.html"/>
+      <item name="distribution-management" href="distribution-management.html"/>
+      <item name="plugin-management" href="plugin-management.html"/>
+      <item name="plugin" href="plugin.html"/>
+      <item name="project-info" href="project-info.html"/>
+      <item name="project-summary" href="project-summary.html"/>
+    </menu>
+
+  </body>
+  
+</project>
