@@ -28,6 +28,11 @@
 						<version>1.8</version>
 					</dependency>
 				</dependencies>
+				<!-- 
+				<configuration>
+					<outputDirectory>C:\Program Files\Apache\Tomcat 9.0\webapps</outputDirectory>
+		        </configuration>
+		        -->				
 			</plugin>
 		</plugins>
 	</build>
