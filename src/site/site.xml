@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Java Coaching">
-  <body>
+	<version position="bottom"/>
+	<publishDate position="bottom"/>	
+	<body>
+
     <links>
-      <!-- Cucumber -->
-      <!-- Selenium WebDriver -->
-      <!-- Slfj4 -->
-      <!-- JUnit -->
       <item name="Apache" href="http://www.apache.org/" />
-      <item name="Maven" href="http://maven.apache.org/"/>
+      <item name="Apache Maven" href="http://maven.apache.org/"/>
+      <item name="Cucumber" href="http://cucumber.io/" />
+      <item name="JUnit" href="http://junit.org/" />
+      <item name="Selenium WebDriver" href="http://seleniumhq.org/" />
+      <item name="Slfj4" href="http://slf4j.org/" />
     </links>
 
     <menu name="Java Coaching">
@@ -20,6 +23,17 @@
       <item name="project-summary" href="project-summary.html"/>
     </menu>
 
+    <menu name="Java Coaching">
+      <item name="Home Page" href="index.html"/>
+      <item name="About" href="about.html"/>
+      <item name="Clients" href="clients.html"/>
+      <item name="Contact" href="contact.html"/>
+      <item name="Industries" href="industries.html"/>
+      <item name="Services" href="services.html"/>
+    </menu>
+
+	<footer><![CDATA[All rights reserved.]]></footer>  
+
   </body>
-  
+
 </project>
