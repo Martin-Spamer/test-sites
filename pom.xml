@@ -51,4 +51,22 @@
 
 	</reporting>
 
+	<name>Test Sites</name>
+	<url>atf4j.net/</url>
+	<description>Simulated sites for testing the automated testing framework for java..</description>
+	<organization>
+		<name>Automated testing framework for Java</name>
+		<url>atf4j.net/</url>
+	</organization>
+	<issueManagement>
+		<url>https://github.com/atf4j/atf4j/issues</url>
+		<system>GitHub</system>
+	</issueManagement>
+	<scm>
+		<url>https://github.com/atf4j/atf4j</url>
+	</scm>
+	<ciManagement>
+		<url>https://travis-ci.org/atf4j/atf4j</url>
+		<system>https://travis-ci.org/</system>
+	</ciManagement>
 </project>

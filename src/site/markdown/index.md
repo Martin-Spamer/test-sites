@@ -1,7 +1,11 @@
-| [Home Page](index.html) | [About Us](about.html) | [Our Clients](clients.html) | [Contact Us](contact.html) | [Industries](industries.html) | [Our Services](services.html) |
-
 # Test Sites
 
-[Home Page](boilerplate/index.html)
-[Home Page](bootstrap/index.html)
-[Home Page](example/index.html)
+- [boilerplate](boilerplate/index.html)
+- [bootstrap](bootstrap/index.html)
+- [example](example/index.html)
+
+- [halcyonic](halcyonic/index.html)
+- [initializr](initializr/index.html)
+- [KeepSimple20](KeepSimple20/index.html)
+- [minimaxing](minimaxing/index.html)
+- [miniport](miniport/index.html)
