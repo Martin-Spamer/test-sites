@@ -1,4 +1,4 @@
-| [Home Page](index.html) | [About Us](about.html) | [Our Services](services.html) | [Industries](industries.html) | [Our Clients](clients.html) | [Contact Us](contact.html) |
+| [Landing Page](index.html "Landing Page") | [About Us](about.html "About Us") | [Our Services](services.html "Our Services") | [Industries](industries.html "Industries Served") | [Our Clients](clients.html "Our Clients") | [Contact Us](contact.html "Contact Us") |
 
 # Contact Us
 
