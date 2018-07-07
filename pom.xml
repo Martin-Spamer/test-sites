@@ -17,6 +17,31 @@
 
 	<build>
 		<plugins>
+
+			<plugin>
+		        <artifactId>maven-resources-plugin</artifactId>
+		        <version>3.1.0</version>
+		        <executions>
+		          <execution>
+		            <id>copy-resources</id>
+		            <!-- here the phase you need -->
+		            <phase>site</phase>
+		            <goals>
+		              <goal>copy-resources</goal>
+		            </goals>
+		            <configuration>
+		              <outputDirectory>${basedir}/target/site</outputDirectory>
+		              <resources>          
+		                <resource>
+		                  <directory>WebContent</directory>
+		                  <filtering>true</filtering>
+		                </resource>
+		              </resources>              
+		            </configuration>            
+		          </execution>
+		        </executions>
+		      </plugin>		
+		
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-site-plugin</artifactId>
@@ -58,15 +83,19 @@
 		<name>Automated testing framework for Java</name>
 		<url>atf4j.net/</url>
 	</organization>
+
 	<issueManagement>
 		<url>https://github.com/atf4j/atf4j/issues</url>
 		<system>GitHub</system>
 	</issueManagement>
+
 	<scm>
 		<url>https://github.com/atf4j/atf4j</url>
 	</scm>
+
 	<ciManagement>
 		<url>https://travis-ci.org/atf4j/atf4j</url>
 		<system>https://travis-ci.org/</system>
 	</ciManagement>
+
 </project>
