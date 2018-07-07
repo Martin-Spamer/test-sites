@@ -1,8 +1,8 @@
 # Test Sites
 
+- [example](example/index.html)
 - [boilerplate](boilerplate/index.html)
 - [bootstrap](bootstrap/index.html)
-- [example](example/index.html)
 
 - [halcyonic](halcyonic/index.html)
 - [initializr](initializr/index.html)
